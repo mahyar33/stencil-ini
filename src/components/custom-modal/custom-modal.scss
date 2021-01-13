@@ -1,0 +1,10 @@
+custom-modal sl-dialog::part(title) {
+  font-weight: var(--sl-font-weight-bold);
+}
+custom-modal sl-dialog::part(header) {
+  border-bottom: 1px solid $gray40;
+}
+custom-modal sl-dialog::part(footer) {
+  border-top: 1px solid $gray40;
+  background: $gray20;
+}

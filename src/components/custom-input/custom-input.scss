@@ -1,0 +1,25 @@
+custom-input custom-icon{
+  display: contents;
+}
+custom-input sl-input[disabled]::part(control)::placeholder {
+  color: var(--sl-input-placeholder-color-disabled);
+}
+
+custom-input sl-input::part(control)::placeholder {
+  color: var($gray50);
+}
+custom-input custom-icon{
+  color: var(--sl-input-icon-color);
+}
+custom-input sl-icon {
+  margin-left: var(--sl-input-spacing-medium);
+}
+custom-input sl-input::part(label) {
+font-weight: var(--sl-font-weight-bold);
+}
+custom-input[required]:not([required='false']) sl-input::part(label)::after {
+  content: "*";
+  color: $red;
+  margin-left: 2px;
+  display: inline-block;
+}

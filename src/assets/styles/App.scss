@@ -1,0 +1,11 @@
+// App wide styles and base styles which other styles will inherit from and expand.
+@import '~@shoelace-style/shoelace/dist/shoelace/shoelace.css';
+@import "~flatpickr/dist/flatpickr.min.css";
+@import "../fonts/robotoFont.scss";
+@import "../fonts/fontIcon.scss";
+html{
+  font-size: 16px;
+}
+body {
+  @include inter-font-family;
+}

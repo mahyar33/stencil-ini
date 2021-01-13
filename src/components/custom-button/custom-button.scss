@@ -1,0 +1,58 @@
+
+:host sl-button::part(base) {
+  font-size: var(--sl-font-size-small);
+  font-weight: var(--sl-font-weight-bold);
+}
+
+:host sl-button[type='default']:not([disabled])::part(base) {
+  color: $black;
+  font-weight: var(--sl-font-weight-normal);
+}
+
+:host sl-button[type='default']:not([disabled])::part(base):hover {
+  color: var(--sl-color-primary-40);
+}
+
+:host sl-button[type='primary']:not([disabled])::part(base) {
+  background: $blue;
+}
+
+:host sl-button[type='primary']:not([disabled])::part(base):hover {
+  background-color: var(--sl-color-primary-60);
+}
+
+:host sl-button[type='primary']:not([disabled])::part(base) {
+  background: $blue;
+}
+
+:host sl-button[type='primary']:not([disabled])::part(base):hover {
+  background-color: var(--sl-color-primary-60);
+}
+:host sl-button[type='info']:not([disabled])::part(base) {
+  background: $gray40;
+  color:$black;
+  border:none;
+
+}
+
+:host sl-button[type='info']:not([disabled])::part(base):hover {
+  background-color: var(--sl-color-info-60);
+  color: var(--sl-color-info-text);
+}
+
+:host sl-button[type='danger']:not([disabled])::part(base) {
+  background: $red;
+}
+
+:host sl-button[type='danger']:not([disabled])::part(base):hover {
+  background-color: var(--sl-color-danger-60);
+}
+:host .secondary:not([disabled])::part(base) {
+  background: $black !important;
+  border-color: $black !important;
+}
+
+:host .secondary:not([disabled])::part(base):hover {
+  background-color: $gray90 !important;
+  border-color: $gray90 !important;
+}

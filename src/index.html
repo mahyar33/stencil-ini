@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+    <link rel="stylesheet" href="/build/initiative-ui2.css">
+    <script type="module" src="/build/initiative-ui2.esm.js"></script>
+    <script nomodule src="/build/initiative-ui2.js"></script>
+    <script>
+      window.onload=()=>{
+        const dialog = document.querySelector('.dialog-overview');
+        const openButton = dialog.nextElementSibling;
+        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+console.log(dialog)
+console.log(openButton)
+console.log(closeButton)
+        openButton.addEventListener('click', () => dialog.show());
+        closeButton.addEventListener('click', () => dialog.hide());
+      }
+
+    </script>
+  </head>
+  <body>
+    <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+  <custom-radio name="gr">test button</custom-radio>
+  <custom-radio name="gr">test button2</custom-radio>
+    <custom-checkbox>test button</custom-checkbox>
+    <custom-input required="true" label="jo" placeholder="Small" >
+      <custom-icon name="tag" slot="prefix"></custom-icon>
+    </custom-input>
+    <custom-date-picker ></custom-date-picker>
+    <custom-time-picker required label="jo" id="myinput"></custom-time-picker>
+   <custom-modal label="Dialog" class="dialog-overview">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      <sl-button slot="footer" type="primary">Close</sl-button>
+    </custom-modal>
+    <sl-button slot="footer" type="primary">Open</sl-button>
+
+    <custom-modal open label="Dialog">
+    </custom-modal>
+  </body>
+</html>

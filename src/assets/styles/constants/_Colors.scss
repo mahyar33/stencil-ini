@@ -1,0 +1,234 @@
+//All the colors palette
+
+//red
+$red10: #FFEEF1;
+$red20: #FFCDD2;
+$red30: #EF9A9A;
+$red40: #E57373;
+$red50: #EF5350;
+$red60: #E53935;
+$red70: #D32F2F;
+$red80: #C62828;
+$red90: #B71C1C;
+$red: #F14336;
+
+//pink
+$pink10: #FCE4EC;
+$pink20: #F8BBD0;
+$pink30: #F48FB1;
+$pink40: #F06292;
+$pink50: #EC407A;
+$pink60: #D81B60;
+$pink70: #C2185B;
+$pink80: #AD1457;
+$pink90: #880E4F;
+$pink: #E61D63;
+
+//purple
+$purple10: #F3E5F5;
+$purple20: #E1BEE7;
+$purple30: #CE93D8;
+$purple40: #BA68C8;
+$purple50: #AB47BC;
+$purple60: #8E24AA;
+$purple70: #7B1FA2;
+$purple80: #6A1B9A;
+$purple90: #4A148C;
+$purple: #9B27B0;
+
+//deep purple
+$deepPurple10: #EDE7F6;
+$deepPurple20: #D1C4E9;
+$deepPurple30: #B39DDB;
+$deepPurple40: #9575CD;
+$deepPurple50: #7E57C2;
+$deepPurple60: #5E35B1;
+$deepPurple70: #512DA8;
+$deepPurple80: #4527A0;
+$deepPurple90: #311B92;
+$deepPurple: #673AB7;
+
+//indigo
+$indigo10: #E8EAF6;
+$indigo20: #C5CAE9;
+$indigo30: #9FA8DA;
+$indigo40: #7986CB;
+$indigo50: #5C6BC0;
+$indigo60: #3949AB;
+$indigo70: #303F9F;
+$indigo80: #283593;
+$indigo90: #1A237E;
+$indigo: #4151B5;
+
+//blue
+$blue10: #E3F2FD;
+$blue20: #BBDEFB;
+$blue30: #90CAF9;
+$blue40: #64B5F6;
+$blue50: #42A5F5;
+$blue60: #1E88E5;
+$blue70: #1976D2;
+$blue80: #1565C0;
+$blue90: #0D47A1;
+$blue: #2D96F3;
+
+//lightBlue
+$lightBlue10: #E1F5FE;
+$lightBlue20: #B3E5FC;
+$lightBlue30: #81D4FA;
+$lightBlue40: #4FC3F7;
+$lightBlue50: #29B6F6;
+$lightBlue60: #039BE5;
+$lightBlue70: #0288D1;
+$lightBlue80: #0277BD;
+$lightBlue90: #01579B;
+$lightBlue: #20A9F4;
+
+//cyan
+$cyan10: #E0F7FA;
+$cyan20: #B2EBF2;
+$cyan30: #80DEEA;
+$cyan40: #4DD0E1;
+$cyan50: #26C6DA;
+$cyan60: #00ACC1;
+$cyan70: #0097A7;
+$cyan80: #00838F;
+$cyan90: #006064;
+$cyan: #1FBCD4;
+
+//teal
+$teal10: #E0F2F1;
+$teal20: #B2DFDB;
+$teal30: #80CBC4;
+$teal40: #4DB6AC;
+$teal50: #26A69A;
+$teal60: #00897B;
+$teal70: #00796B;
+$teal80: #00695C;
+$teal90: #004D40;
+$teal:  #159688;
+
+//green
+$green10: #E8F5E9;
+$green20: #C8E6C9;
+$green30: #A5D6A7;
+$green40: #81C784;
+$green50: #66BB6A;
+$green60: #43A047;
+$green70: #388E3C;
+$green80: #2E7D32;
+$green90: #1B5E20;
+$green:  #50AF50;
+
+//lightGreen
+$lightGreen10: #F1F8E9;
+$lightGreen20: #DCEDC8;
+$lightGreen30: #C5E1A5;
+$lightGreen40: #AED581;
+$lightGreen50: #9CCC65;
+$lightGreen60: #7CB342;
+$lightGreen70: #689F38;
+$lightGreen80: #558B2F;
+$lightGreen90: #33691E;
+$lightGreen:  #8CC34A;
+
+//lime
+$lime10: #F9FBE7;
+$lime20: #F0F4C3;
+$lime30: #E6EE9C;
+$lime40: #DCE775;
+$lime50: #D4E157;
+$lime60: #C0CA33;
+$lime70: #AFB42B;
+$lime80: #9E9D24;
+$lime90: #827717;
+$lime:  #CDDC39;
+
+//yellow
+$yellow10: #FFFDE7;
+$yellow20: #FFF9C4;
+$yellow30: #FFF59D;
+$yellow40: #FFF176;
+$yellow50: #FFEE58;
+$yellow60: #FDD835;
+$yellow70: #FBC02D;
+$yellow80: #F9A825;
+$yellow90: #F57F17;
+$yellow:  #FEEB3A;
+
+//amber
+$amber10: #FFF8E1;
+$amber20: #FFECB3;
+$amber30: #FFE082;
+$amber40: #FFD54F;
+$amber50: #FFCA28;
+$amber60: #FFB300;
+$amber70: #FFA000;
+$amber80: #FF8F00;
+$amber90: #FF6F00;
+$amber:  #FDC105;
+
+//orange
+$orange10: #FFF3E0;
+$orange20: #FFE0B2;
+$orange30: #FFCC80;
+$orange40: #FFB74D;
+$orange50: #FFA726;
+$orange60: #FB8C00;
+$orange70: #F57C00;
+$orange80: #EF6C00;
+$orange90: #E65100;
+$orange:  #FD9800;
+
+//deepOrange
+$deepOrange10: #FBE9E7;
+$deepOrange20: #FFCCBC;
+$deepOrange30: #FFAB91;
+$deepOrange40: #FF8A65;
+$deepOrange50: #FF7043;
+$deepOrange60: #FC5722;
+$deepOrange70: #F4511E;
+$deepOrange80: #E64A19;
+$deepOrange90: #D84315;
+$deepOrange:  #BF360C;
+
+//brown
+$brown10: #EFEBE9;
+$brown20: #D7CCC8;
+$brown30: #BCAAA4;
+$brown40: #A1887F;
+$brown50: #8D6E63;
+$brown60: #6D4C41;
+$brown70: #5D4037;
+$brown80: #4E342E;
+$brown90: #3E2723;
+$brown:  #785548;
+
+//gray
+$gray10: #FAFAFA;
+$gray20: #F5F5F5;
+$gray30: #EEEEEE;
+$gray40: #E0E0E0;
+$gray50: #BDBDBD;
+$gray60: #757575;
+$gray70: #616161;
+$gray80: #424242;
+$gray90: #212121;
+$gray:  #9E9E9E;
+
+//blueGray
+$blueGray10: #ECEFF1;
+$blueGray20: #CFD8DC;
+$blueGray30: #B0BEC5;
+$blueGray40: #90A4AE;
+$blueGray50: #78909C;
+$blueGray60: #546E7A;
+$blueGray70: #455A64;
+$blueGray80: #37474F;
+$blueGray90: #263238;
+$blueGray:  #617D8B;
+
+
+$white:#FFF;
+$black:#000;
+

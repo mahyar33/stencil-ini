@@ -1,0 +1,12 @@
+custom-radio {
+  --sl-input-color: $gray90;
+  --sl-focus-ring-box-shadow:none;
+}
+
+custom-radio sl-radio[checked]::part(control) {
+  background-color: $black;
+  border-color: $black;
+}
+custom-radio sl-radio::part(label){
+  font-weight: var(--sl-font-weight-semibold);
+}
